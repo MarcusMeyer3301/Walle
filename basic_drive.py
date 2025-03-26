@@ -8,7 +8,7 @@ motor_a_in1 = Pin(13, Pin.OUT)
 motor_a_in2 = Pin(14, Pin.OUT)
 motor_a_en = PWM(Pin(15))
 motor_a_en.freq(1000)
-motor_a_correction = 1.1 # Adjust so both motors have same speed
+motor_a_correction = 1.03 # Adjust so both motors have same speed
 
 # Motor B
 motor_b_in3 = Pin(12, Pin.OUT)
